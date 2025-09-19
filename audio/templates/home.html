@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Music Instrument Detector{% endblock %}
+
+{% block content %}
+<div class="text-center py-5">
+    <h1>Welcome to the Music Instrument Detector</h1>
+    <p class="lead">
+        Upload your audio file and get instrument detection and isolated stems.
+    </p>
+    <a href="{% url 'upload' %}" class="btn btn-primary btn-lg mt-4">
+        Upload Audio
+    </a>
+</div>
+{% endblock %}
