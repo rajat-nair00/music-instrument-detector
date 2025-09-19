@@ -24,9 +24,9 @@ Download: Save original and stem files for personal use
 Getting Started
 1. Clone the repository
 text
-git clone https://github.com/yourusername/music-instrument-detector.git
+git clone https://github.com/rajat-nair00/music-instrument-detector.git
 cd music-instrument-detector
-2. Install Python dependencies
+3. Install Python dependencies
 Ensure Python 3.9 or newer is installed.
 
 text
